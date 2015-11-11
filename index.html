@@ -53,14 +53,14 @@
 		});
 
 		var tree = {
-		  title: "howdy",
+		  title: "TEST",
 		  childNodes: [
-		    {title: "bobby"},
-		    {title: "suzie", childNodes: [
-		      {title: "puppy", childNodes: [
-		        {title: "dog house"}
+		    {title: "child 1"},
+		    {title: "child 2", childNodes: [
+		      {title: "child2.1", childNodes: [
+		        {title: "child2.1.1"}
 		      ]},
-		      {title: "cherry tree"}
+		      {title: "child2.2"}
 		    ]}
 		  ]
 		};
@@ -70,10 +70,10 @@
 		  document.getElementById("tree")
 		);
 	</script>	
-	
+
 </head>
 <body>
-	<h3>It's <code>TreeNodes</code> all the way down</h3>
+	<h3>Testing <code>TreeNodes</code> </h3>
 	<p>Edit the <code>tree</code> variable to change the tree</p>
 	<div id="tree"></div>
 </body>
